@@ -1,0 +1,15 @@
+platform :ios, "8.0"
+
+target 'Reader' do
+#use_framework!
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'YYCache'
+pod 'YYModel'
+pod 'YYCategories'
+pod 'CocoaLumberjack'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'Firebase/RemoteConfig'
+
+end
