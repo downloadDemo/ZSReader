@@ -76,6 +76,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - CocoaLumberjack
+  - Firebase/Core
   - Firebase/Crash
   - Firebase/RemoteConfig
   - MBProgressHUD
@@ -104,6 +105,6 @@ SPEC CHECKSUMS:
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 5fd47645d59fd40494d3ad8b967c6ef93a0dea65
+PODFILE CHECKSUM: 7838e481ecd0de8231f200d85cfc4fa05680c873
 
 COCOAPODS: 1.1.1

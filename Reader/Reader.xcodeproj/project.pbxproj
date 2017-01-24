@@ -10,6 +10,7 @@
 		1D00754F1E37480800F7BF5D /* AppDelegate+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */; };
 		1D0075511E3749F500F7BF5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */; };
 		1D0075541E37541000F7BF5D /* feng-firebaseAnalytics.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D0075531E37541000F7BF5D /* feng-firebaseAnalytics.json */; };
+		1D0075581E375D5300F7BF5D /* FREvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0075571E375D5300F7BF5D /* FREvent.m */; };
 		1DCFABFF1E373F6C006EF3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFABFE1E373F6C006EF3A3 /* main.m */; };
 		1DCFAC021E373F6C006EF3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFAC011E373F6C006EF3A3 /* AppDelegate.m */; };
 		1DCFAC081E373F6C006EF3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCFAC061E373F6C006EF3A3 /* Main.storyboard */; };
@@ -106,6 +107,8 @@
 		1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Status.m"; sourceTree = "<group>"; };
 		1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D0075531E37541000F7BF5D /* feng-firebaseAnalytics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feng-firebaseAnalytics.json"; sourceTree = "<group>"; };
+		1D0075561E375D5300F7BF5D /* FREvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FREvent.h; sourceTree = "<group>"; };
+		1D0075571E375D5300F7BF5D /* FREvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FREvent.m; sourceTree = "<group>"; };
 		1DCFABFA1E373F6C006EF3A3 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCFABFE1E373F6C006EF3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DCFAC001E373F6C006EF3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -283,6 +286,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1D0075551E375D3100F7BF5D /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				1D0075561E375D5300F7BF5D /* FREvent.h */,
+				1D0075571E375D5300F7BF5D /* FREvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
 		1DCFABF11E373F6C006EF3A3 = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +322,7 @@
 				1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */,
 				1DCFAD021E3741B9006EF3A3 /* RootController.h */,
 				1DCFAD031E3741B9006EF3A3 /* RootController.m */,
+				1D0075551E375D3100F7BF5D /* Event */,
 				1DCFACE51E374173006EF3A3 /* Search */,
 				1DCFACE01E37416E006EF3A3 /* Resources */,
 				1DCFAC881E374168006EF3A3 /* Reader */,
@@ -792,6 +805,7 @@
 				1DCFACC91E374169006EF3A3 /* YSummaryViewCell.m in Sources */,
 				1DCFACD01E374169006EF3A3 /* YReaderSettings.m in Sources */,
 				1DCFACD21E374169006EF3A3 /* YBottomButton.m in Sources */,
+				1D0075581E375D5300F7BF5D /* FREvent.m in Sources */,
 				1DCFAC571E374152006EF3A3 /* YProgressView.m in Sources */,
 				1DCFAC2E1E374146006EF3A3 /* YBookAuthorModel.m in Sources */,
 				1DCFAC6F1E37415C006EF3A3 /* YCollectionViewLayout.m in Sources */,

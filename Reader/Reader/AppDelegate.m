@@ -18,6 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    FIRCrashLog(@"app launch");
+    
     //Firebase
     [FIRApp configure];
     return YES;

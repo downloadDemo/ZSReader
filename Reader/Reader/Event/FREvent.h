@@ -10,4 +10,6 @@
 
 @interface FREvent : NSObject
 
++ (instancetype)getInstance;
+- (void)EventWithPage:(NSString *)page event:(NSString *)event param:(NSDictionary *)param;
 @end

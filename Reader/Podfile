@@ -13,5 +13,6 @@ pod 'MBProgressHUD'
 
 pod 'Firebase/RemoteConfig'
 pod 'Firebase/Crash'
+pod 'Firebase/Core'
 
 end

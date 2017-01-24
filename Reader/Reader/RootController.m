@@ -12,7 +12,7 @@
 #import "YCenterViewController.h"
 #import "YSearchViewController.h"
 #import "YRankingViewController.h"
-
+#import "FREvent.h"
 #define kLeftAnimationDuration 0.25
 #define kRightAnimationDuration 0.5
 #define kLeftViewWidth 80
@@ -52,6 +52,8 @@
             [wself.navigationController pushViewController:rankingVC animated:YES];
         }
     };
+    
+    [[FREvent getInstance] EventWithPage:@"root" event:@"login" param:nil];
     
 }
 
