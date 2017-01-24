@@ -9,7 +9,7 @@
 #import "YURLManager.h"
 #import <CoreFoundation/CoreFoundation.h>
 
-#define kAPIBaseUrl @"http://api.zhuishushenqi.com/"
+#define kAPIBaseUrl @"https://api.zhuishushenqi.com/"
 
 @implementation YURLManager
 
@@ -24,15 +24,15 @@
             break;
         case YAPITypeBookCover: {
             if ([parameter hasPrefix:@"/cover/"] || [parameter hasPrefix:@"/ranking-cover/"]) {
-                urlStr = [NSString stringWithFormat:@"http://statics.zhuishushenqi.com%@",parameter];
+                urlStr = [NSString stringWithFormat:@"https://statics.zhuishushenqi.com%@",parameter];
             } else {
                 parameter = [self encodeToPercentEscapeString:parameter];
-                urlStr = [NSString stringWithFormat:@"http://statics.zhuishushenqi.com/agent/%@-covers",parameter];
+                urlStr = [NSString stringWithFormat:@"https://statics.zhuishushenqi.com/agent/%@-covers",parameter];
             }
         }
             break;
         case YAPITypeAuthorAvatar:
-            urlStr = [NSString stringWithFormat:@"http://statics.zhuishushenqi.com%@",parameter];
+            urlStr = [NSString stringWithFormat:@"https://statics.zhuishushenqi.com%@",parameter];
             break;
         case YAPITypeBookDetail:
             urlStr = [NSString stringWithFormat:@"%@book/%@",kAPIBaseUrl,parameter];
@@ -54,7 +54,7 @@
             break;
         case YAPITypeChapterContent: {
             parameter = [self encodeToPercentEscapeString:parameter];
-            urlStr = [NSString stringWithFormat:@"http://chapter2.zhuishushenqi.com/chapter/%@",parameter];
+            urlStr = [NSString stringWithFormat:@"https://chapter2.zhuishushenqi.com/chapter/%@",parameter];
             break;
         }
         case YAPITypeBookUpdate:

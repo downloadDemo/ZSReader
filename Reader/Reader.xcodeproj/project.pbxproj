@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D00754F1E37480800F7BF5D /* AppDelegate+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */; };
+		1D0075511E3749F500F7BF5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */; };
 		1DCFABFF1E373F6C006EF3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFABFE1E373F6C006EF3A3 /* main.m */; };
 		1DCFAC021E373F6C006EF3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFAC011E373F6C006EF3A3 /* AppDelegate.m */; };
 		1DCFAC081E373F6C006EF3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCFAC061E373F6C006EF3A3 /* Main.storyboard */; };
@@ -99,6 +101,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D00754D1E37480800F7BF5D /* AppDelegate+Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Status.h"; sourceTree = "<group>"; };
+		1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Status.m"; sourceTree = "<group>"; };
+		1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1DCFABFA1E373F6C006EF3A3 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCFABFE1E373F6C006EF3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DCFAC001E373F6C006EF3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -299,6 +304,8 @@
 			children = (
 				1DCFAC001E373F6C006EF3A3 /* AppDelegate.h */,
 				1DCFAC011E373F6C006EF3A3 /* AppDelegate.m */,
+				1D00754D1E37480800F7BF5D /* AppDelegate+Status.h */,
+				1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */,
 				1DCFAD021E3741B9006EF3A3 /* RootController.h */,
 				1DCFAD031E3741B9006EF3A3 /* RootController.m */,
 				1DCFACE51E374173006EF3A3 /* Search */,
@@ -320,6 +327,7 @@
 		1DCFABFD1E373F6C006EF3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */,
 				1DCFAC061E373F6C006EF3A3 /* Main.storyboard */,
 				1DCFAC0B1E373F6C006EF3A3 /* LaunchScreen.storyboard */,
 				1DCFABFE1E373F6C006EF3A3 /* main.m */,
@@ -674,6 +682,7 @@
 				1DCFACD71E374169006EF3A3 /* YThemeViewCell.xib in Resources */,
 				1DCFACCA1E374169006EF3A3 /* YSummaryViewCell.xib in Resources */,
 				1DCFAC591E374152006EF3A3 /* YRightViewController.xib in Resources */,
+				1D0075511E3749F500F7BF5D /* GoogleService-Info.plist in Resources */,
 				1DCFACC51E374169006EF3A3 /* YDirectoryViewController.xib in Resources */,
 				1DCFAC3A1E374146006EF3A3 /* YBookDetailViewController.xib in Resources */,
 				1DCFACCC1E374169006EF3A3 /* YSummaryViewController.xib in Resources */,
@@ -790,6 +799,7 @@
 				1DCFAC861E374162006EF3A3 /* YRankingViewController.m in Sources */,
 				1DCFACC21E374169006EF3A3 /* YDirectoryViewCell.m in Sources */,
 				1DCFACF71E374173006EF3A3 /* YBookDetailCell.m in Sources */,
+				1D00754F1E37480800F7BF5D /* AppDelegate+Status.m in Sources */,
 				1DCFACDC1E374169006EF3A3 /* YPageBackViewController.m in Sources */,
 				1DCFAC531E374152006EF3A3 /* YCenterViewController.m in Sources */,
 				1DCFACCD1E374169006EF3A3 /* YDownloadManager.m in Sources */,
@@ -927,7 +937,7 @@
 				INFOPLIST_FILE = Reader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.Reader;
+				PRODUCT_BUNDLE_IDENTIFIER = genralDevPaymentCom.ThirdStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -943,7 +953,7 @@
 				INFOPLIST_FILE = Reader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.suifeng.Reader;
+				PRODUCT_BUNDLE_IDENTIFIER = genralDevPaymentCom.ThirdStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
