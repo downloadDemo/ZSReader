@@ -188,7 +188,7 @@ typedef void (^FIRRemoteConfigFetchCompletion)(FIRRemoteConfigFetchStatus status
 #pragma mark - Defaults
 /// Sets config defaults for parameter keys and values in the default namespace config.
 ///
-/// @param defaultConfig    A dictionary mapping a NSString * key to a NSObject * value.
+/// @param defaults    A dictionary mapping a NSString * key to a NSObject * value.
 - (void)setDefaults:(nullable NSDictionary<NSString *, NSObject *> *)defaults;
 
 /// Sets config defaults for parameter keys and values in the default namespace config.

@@ -57,6 +57,10 @@ Copyright 2016 Google
 
 Copyright 2016 Google
 
+## FirebaseCrash
+
+Copyright 2016 Google
+
 ## FirebaseInstanceID
 
 Copyright 2016 Google

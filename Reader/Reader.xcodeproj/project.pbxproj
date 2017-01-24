@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D00754F1E37480800F7BF5D /* AppDelegate+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */; };
 		1D0075511E3749F500F7BF5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */; };
+		1D0075541E37541000F7BF5D /* feng-firebaseAnalytics.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D0075531E37541000F7BF5D /* feng-firebaseAnalytics.json */; };
 		1DCFABFF1E373F6C006EF3A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFABFE1E373F6C006EF3A3 /* main.m */; };
 		1DCFAC021E373F6C006EF3A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCFAC011E373F6C006EF3A3 /* AppDelegate.m */; };
 		1DCFAC081E373F6C006EF3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DCFAC061E373F6C006EF3A3 /* Main.storyboard */; };
@@ -104,6 +105,7 @@
 		1D00754D1E37480800F7BF5D /* AppDelegate+Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Status.h"; sourceTree = "<group>"; };
 		1D00754E1E37480800F7BF5D /* AppDelegate+Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Status.m"; sourceTree = "<group>"; };
 		1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D0075531E37541000F7BF5D /* feng-firebaseAnalytics.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feng-firebaseAnalytics.json"; sourceTree = "<group>"; };
 		1DCFABFA1E373F6C006EF3A3 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DCFABFE1E373F6C006EF3A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DCFAC001E373F6C006EF3A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 		1DCFABFD1E373F6C006EF3A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D0075531E37541000F7BF5D /* feng-firebaseAnalytics.json */,
 				1D0075501E3749F500F7BF5D /* GoogleService-Info.plist */,
 				1DCFAC061E373F6C006EF3A3 /* Main.storyboard */,
 				1DCFAC0B1E373F6C006EF3A3 /* LaunchScreen.storyboard */,
@@ -616,6 +619,7 @@
 				1DCFABF81E373F6C006EF3A3 /* Resources */,
 				ED9CCE61F721998C4C7247BE /* [CP] Embed Pods Frameworks */,
 				5A4E0EBCBA37953B6848E788 /* [CP] Copy Pods Resources */,
+				1D0075521E3753B500F7BF5D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -665,6 +669,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0075541E37541000F7BF5D /* feng-firebaseAnalytics.json in Resources */,
 				1DCFACDB1E374169006EF3A3 /* YMoreSettingsViewController.xib in Resources */,
 				1DCFACFD1E374173006EF3A3 /* YSearchViewController.xib in Resources */,
 				1DCFAC0D1E373F6C006EF3A3 /* LaunchScreen.storyboard in Resources */,
@@ -701,6 +706,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1D0075521E3753B500F7BF5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "JSON_FILE=Path/To/feng-firebaseAnalytics.json\nGOOGLE_APP_ID=1:366085512500:ios:3df0ee90d0a888e7";
+		};
 		5A4E0EBCBA37953B6848E788 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

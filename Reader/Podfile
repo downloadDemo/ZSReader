@@ -10,6 +10,8 @@ pod 'YYCategories'
 pod 'CocoaLumberjack'
 pod 'MJRefresh'
 pod 'MBProgressHUD'
+
 pod 'Firebase/RemoteConfig'
+pod 'Firebase/Crash'
 
 end
